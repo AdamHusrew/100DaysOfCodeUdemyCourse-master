@@ -1,14 +1,14 @@
-#Data Types
+# Data Types
 
-#String
+# String
 
 print("Hello"[0])
 
 print("123" + "456")
 
-#Integer
+# Integer
 
-num=123
+num = 123
 
 print(123 + 456)
 
@@ -16,20 +16,16 @@ num = 123_123_132_132_132
 
 print(num)
 
+# Float
 
-#Float
-
-numFloat=34.534
+numFloat = 34.534
 
 print(numFloat)
 
+# Boolean
 
-#Boolean
 
-
-check=True
-check1=False
+check = True
+check1 = False
 
 print(check)
-
-
