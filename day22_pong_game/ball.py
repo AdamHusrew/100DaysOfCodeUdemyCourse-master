@@ -10,6 +10,7 @@ class Ball(Turtle):
         self.shapesize(stretch_wid=1, stretch_len=1)
         self.x_move = 10
         self.y_move = 10
+        self.speed = 1
 
     def move(self):
         new_x = self.xcor() + self.x_move
@@ -24,3 +25,6 @@ class Ball(Turtle):
 
     def reset_position(self):
         self.goto(0, 0)
+
+    def adjustSpeed(self):
+        self.speed(self.speed)
